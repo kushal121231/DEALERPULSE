@@ -2,7 +2,7 @@ import React from 'react';
 import { useData } from '../context/DataContext';
 import {
   getInsights, getLeadAgingAlerts, formatCurrency,
-  getRepPerformance, getBranchPerformance
+  getRepPerformance
 } from '../utils/calculations';
 
 export default function Insights() {
